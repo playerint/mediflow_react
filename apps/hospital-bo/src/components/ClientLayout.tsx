@@ -6,7 +6,7 @@ import Sidebar from './Sidebar'
 export default function ClientLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname()
 
-  if (pathname === '/login') {
+  if (pathname === '/login' || pathname === '/register') {
     return <>{children}</>
   }
 
