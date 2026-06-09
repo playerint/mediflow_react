@@ -1,0 +1,13 @@
+{
+  "name": "mediflow-react",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "platform-bo": "npm run dev --workspace=apps/platform-bo",
+    "hospital-bo": "npm run dev --workspace=apps/hospital-bo",
+    "patient-fo": "npm run dev --workspace=apps/patient-fo"
+  }
+}
